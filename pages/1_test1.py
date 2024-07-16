@@ -6,5 +6,6 @@ pro2 = st.checkbox("std2io.h")
 pro3 = st.checkbox("stdi3o.h")
 pro4 = st.checkbox("stdio1.h")
 pro5 = st.checkbox("stdiro.h")
-if pro1:
-    st.session_state.jum=st.session_state.jum+50
+if st.button("확인"):
+   if pro1:
+     st.session_state.jum=st.session_state.jum+50
